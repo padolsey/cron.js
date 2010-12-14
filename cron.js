@@ -154,7 +154,7 @@ var CronJob = (function(){
             now.minute = date.getMinutes();
             now.hour = date.getHours();
             now.dayOfMonth = date.getDate();
-            now.month = date.getMonth() + 1;
+            now.month = date.getMonth();
             now.dayOfWeek = date.getDay();
             
             for (i in now) {
